@@ -86,7 +86,7 @@ apple: 20 pcs.
 """
 assert isinstance(cart.user, User) is True, 'Екземпляр класу User'
 assert cart.get_total() == 60, "Всього 60"
-assert cart.get_total() == 60, 'Повинно залишатися 60!'
+assert cart.get_total() == 60,  'Повинно залишатися 60!'
 cart.add_item(apple, 10)
 print(cart)
 """
